@@ -1,6 +1,5 @@
 # MongoDB CRUD app
 
-###### 2022 Dmytro Dziubenko
 
 ## This application is capable for
 
@@ -67,3 +66,7 @@
     - Windows:
 
             $ python app.py
+
+<br/>
+
+###### 2022 Dmytro Dziubenko
