@@ -5,25 +5,30 @@
 ## This application is capable for
 
 -    connect:
+
     1. server (use environment variable for safety)
     2. database
     3. collection
 
 -    retreive:
+
     1. all databases
     2. all collections in selected database
     3. all documents in selected collection
     4. all documents in selected collection using filters
 
 -    insert:
+
     1. one document to collection
     2. many documents to collection
 
 -    update:
+
     1. one document in collection
     2. many documents in collection
 
 -    delete:
+
     1. one document in collection
     2. many documents in collection
 
