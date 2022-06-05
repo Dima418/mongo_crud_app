@@ -3,7 +3,7 @@ Main function.
 
 To run application:
     $ git clone https://github.com/Dima418/mongo_crud_app.git
-    $ cd mongo_crud_app.
+    $ cd mongo_crud_app
 
     Linux/Ubuntu:
     $ export MONGO_URL=<connection string>
@@ -23,30 +23,30 @@ from src.mongo_client import Mongo as Mongo
 
 
 def connect() -> Mongo:
-    """Connect to MongoDB server
+    """Connect to MongoDB server.
 
     Returns:
-        Mongo: MongoDB client instance that have CRUD functions implemented
+        Mongo: MongoDB client instance that have CRUD functions implemented.
     """
 
     return Mongo(MONGODB_CONNECTION_STRING)
 
 
 def perform_actions(db: Mongo) -> NoReturn:
-    """Start infinite loop for user to make DB operations
+    """Start infinite loop for user to make DB operations.
 
     Args:
-        db (Mongo): MongoDB client instance
+        db (Mongo): MongoDB client instance.
     """
 
     pass
 
 
 def close(db: Mongo) -> None:
-    """Close MongoDB connection
+    """Close MongoDB connection.
 
     Args:
-        db (Mongo): MongoDB client instance
+        db (Mongo): MongoDB client instance.
     """
 
     db.mongodb_client.close()

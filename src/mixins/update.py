@@ -1,5 +1,5 @@
 """
-Mixin class for update operations
+Mixin class for update operations.
 """
 
 
