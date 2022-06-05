@@ -2,8 +2,6 @@
 
 ###### 2022 Dmytro Dziubenko
 
----
-
 ## This application is capable for
 
 -    connect:
@@ -30,7 +28,6 @@
     2. many documents in collection
 
 ## Instalation
----
 
 - Clone the project from repository.
 
@@ -46,7 +43,7 @@
 
 - Install requirements.
 
-        $ pip install -r reqirements.txt
+        $ pip install -r requirements.txt
 
 - Add MongoDB connection string to enviroment varable `MONGO_URL`. See MongoDB [Connection String URI Format](https://www.mongodb.com/docs/manual/reference/connection-string/).
     - Linux/Ubuntu:
