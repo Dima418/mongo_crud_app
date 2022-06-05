@@ -9,17 +9,16 @@ from typing import Optional, Any
 
 
 class RetrieveMixin:
-    """Class contains only functions that retrieve data from MongoDB
+    """Class contains only functions for retrieve operations for MongoDB
 
     Functions:
         1. print_dbs(self) -> None
         2. print_collections(self, query_filter: Optional[dict[str, Any]] = None) -> None
-        3.
+        3. print_documents(self, query_filter: Optional[dict[str, Any]] = None) -> None
     """
 
     def print_dbs(self) -> None:
-        """Print all databases names
-        """
+        """Print all databases names"""
 
         self.client_connected()
 
