@@ -1,15 +1,17 @@
 """
-Class to perform CRUD operations for Mongo database
+Class to perform CRUD operations for Mongo database.
 """
 
-from .mixins.connect import ConnectMixin
-from .mixins.retrieve import RetrieveMixin
-from .mixins.delete import DeleteMixin
+from .mixins import (
+    ConnectMixin,
+    RetrieveMixin,
+    DeleteMixin,
+    InsertMixin
+)
 
 
-# TODO: use dataclasses
-
-class Mongo(ConnectMixin, RetrieveMixin, DeleteMixin):
+class Mongo(ConnectMixin, RetrieveMixin, DeleteMixin, InsertMixin):
+    """MongoDB API class for CRUD operations."""
 
     def __init__(
             self,
