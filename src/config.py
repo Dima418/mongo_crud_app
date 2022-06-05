@@ -1,5 +1,5 @@
 """
-Configuration variables
+Configuration variables.
 """
 
 from os import environ
