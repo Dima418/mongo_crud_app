@@ -4,11 +4,12 @@ Class to perform CRUD operations for Mongo database
 
 from .mixins.connect import ConnectMixin
 from .mixins.retrieve import RetrieveMixin
+from .mixins.delete import DeleteMixin
 
 
 # TODO: use dataclasses
 
-class Mongo(ConnectMixin, RetrieveMixin):
+class Mongo(ConnectMixin, RetrieveMixin, DeleteMixin):
 
     def __init__(
             self,
