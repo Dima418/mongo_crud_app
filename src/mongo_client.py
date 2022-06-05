@@ -6,11 +6,12 @@ from .mixins import (
     ConnectMixin,
     RetrieveMixin,
     DeleteMixin,
-    InsertMixin
+    InsertMixin,
+    UpdateMixin
 )
 
 
-class Mongo(ConnectMixin, RetrieveMixin, DeleteMixin, InsertMixin):
+class MongoAPIClient(ConnectMixin, RetrieveMixin, DeleteMixin, InsertMixin, UpdateMixin):
     """MongoDB API class for CRUD operations."""
 
     def __init__(
